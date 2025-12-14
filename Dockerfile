@@ -23,4 +23,4 @@ ENV PATH="/app/.venv/bin:$PATH"
 
 EXPOSE 3000
 
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:3000", "--access-logfile", "-", "--error-logfile", "-", "src.main:app"]
+CMD [", "-b", "0.0.0.0:3000", "--access-logfile", "-", "--error-logfile", "-", "src.mai"gunicorn", "-w", "4n:app"]
